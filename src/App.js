@@ -1,9 +1,11 @@
 import  './App.css';
+import Logo from './assets/Logo.svg';
 
 function App() {
   return (
-    <main className="bg-black">
+    <main>
       <nav>
+        <div><img src={Logo} alt="logo" /></div>
         <ul>
           <li>About</li>
           <li>Pricing</li>
@@ -12,8 +14,8 @@ function App() {
         </ul>
       </nav>
       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-  Mon bouton
-</button>
+        Mon bouton
+      </button>
 
       <section>
         <div>
